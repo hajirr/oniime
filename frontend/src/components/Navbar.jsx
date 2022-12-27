@@ -23,7 +23,7 @@ const Navbar = ({ search }) => {
   };
 
   return (
-    <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 shadow">
+    <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 shadow sticky top-0">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
         <a href="/" className="flex items-center">
           <img src={logo} className="h-6 mr-3 sm:h-9" alt="Baubawang Logo" />
