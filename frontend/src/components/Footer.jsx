@@ -8,6 +8,7 @@ const Footer = () => {
         </a>
         . All Rights Reserved.
       </span>
+      <div id="histats_counter"></div>
     </footer>
   );
 };
