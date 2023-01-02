@@ -3,8 +3,8 @@ import { useNavigate } from "react-router-dom";
 import BannerAds from "../components/BannerAds";
 import Navbar from "../components/Navbar";
 import { getAnimeNew, postAnimeNewPagination } from "../sources/api";
-import banner1 from "../assets/banner-buytuber.jpeg";
-import banner2 from "../assets/banner-buytuber-2.jpeg";
+import banner1 from "../assets/banner.gif";
+import banner2 from "../assets/banner.gif";
 
 const AnimePage = () => {
   const [listLatestAnime, setListLatestAnime] = useState([]);
@@ -92,7 +92,7 @@ const AnimePage = () => {
             })}
           </div>
         )}
-        <BannerAds banner={banner1} url="https://buytuber.com" />
+        <BannerAds banner={banner1} url="https://jasaviral.com" />
         <p className="font-bold text-lg">Episode Anime Terbaru</p>
         {isLoading && (
           <div className="grid grid-cols-1 gap-4 my-4 w-full">
@@ -157,7 +157,7 @@ const AnimePage = () => {
           })}
         </div>
         <div className="h-10" />
-        <BannerAds url="https://buytuber.com" banner={banner2} />
+        <BannerAds url="https://jasaviral.com" banner={banner2} />
         <p className="font-bold text-lg">Anime Rekomendasi</p>
 
         {isLoading && (
