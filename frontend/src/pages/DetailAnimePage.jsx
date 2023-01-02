@@ -105,7 +105,8 @@ const DetailAnimePage = () => {
               </div>
             </div>
           </div>
-          <div className="lg:mx-72 p-4 shadow-lg rounded-lg flex flex-col space-y-4 mt-4">
+          {/* <div className="lg:mx-72 p-4 shadow-lg rounded-lg flex flex-col space-y-4 mt-4"></div> */}
+          <div className="lg:mx-72">
             <BannerAds banner={banner1} url="https://jasaviral.com" />
           </div>
           <div className="lg:mx-72 p-4 shadow-lg rounded-lg flex flex-col space-y-4 mt-4">
