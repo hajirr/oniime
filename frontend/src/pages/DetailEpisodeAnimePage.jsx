@@ -4,6 +4,7 @@ import BannerAds from "../components/BannerAds";
 import Navbar from "../components/Navbar";
 import { postAnimeDetailEpisode } from "../sources/api";
 import banner1 from "../assets/banner-buytuber.jpeg";
+import bannerSquare from "../assets/banner-square.gif";
 
 const DetailEpisodeAnimePage = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -73,7 +74,13 @@ const DetailEpisodeAnimePage = () => {
                   className="mx-auto"
                   onClick={() => setShowAds(false)}
                 />
-                <div className="w-56 h-56 bg-red-500 mx-auto"></div>
+                <div className="w-56 h-56 bg-red-500 mx-auto">
+                  <img
+                    src={bannerSquare}
+                    alt="banner buytuber"
+                    className="mx-auto"
+                  />
+                </div>
               </div>
             )}
             <iframe
