@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import BannerAds from "../components/BannerAds";
 import Navbar from "../components/Navbar";
 import { postAnimeDetail } from "../sources/api";
-import banner2 from "../assets/banner-buytuber-2.jpeg";
+import banner1 from "../assets/banner.gif";
 
 const DetailAnimePage = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -106,7 +106,7 @@ const DetailAnimePage = () => {
             </div>
           </div>
           <div className="lg:mx-72 p-4 shadow-lg rounded-lg flex flex-col space-y-4 mt-4">
-            <BannerAds banner={banner2} url="https://buytuber.com" />
+            <BannerAds banner={banner1} url="https://jasaviral.com" />
           </div>
           <div className="lg:mx-72 p-4 shadow-lg rounded-lg flex flex-col space-y-4 mt-4">
             <div className="overflow-x-auto">

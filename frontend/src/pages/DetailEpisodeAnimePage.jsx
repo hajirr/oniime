@@ -3,8 +3,8 @@ import { useNavigate } from "react-router-dom";
 import BannerAds from "../components/BannerAds";
 import Navbar from "../components/Navbar";
 import { postAnimeDetailEpisode } from "../sources/api";
-import banner1 from "../assets/banner-buytuber.jpeg";
 import bannerSquare from "../assets/banner-square.gif";
+import banner1 from "../assets/banner.gif";
 
 const DetailEpisodeAnimePage = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -77,7 +77,7 @@ const DetailEpisodeAnimePage = () => {
                 <div className="w-56 h-56 bg-red-500 mx-auto">
                   <img
                     src={bannerSquare}
-                    alt="banner buytuber"
+                    alt="banner jasaviral"
                     className="mx-auto"
                   />
                 </div>
@@ -116,7 +116,7 @@ const DetailEpisodeAnimePage = () => {
               }
             })}
           </div>
-          <BannerAds banner={banner1} url="https://buytuber.com" />
+          <BannerAds banner={banner1} url="https://jasaviral.com" />
           <div className="">
             {linkDownload.map((itemLinkDownload, index) => {
               return (
