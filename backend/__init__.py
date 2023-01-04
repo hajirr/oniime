@@ -213,10 +213,10 @@ def op_detail():
     desc = infox.find('div', class_='desc')
 
     title = h1.text
-    min_description = mindesc.text.replace('oploverz.asia', 'baubawang.com').replace(
-        'Oploverz', 'Baubawang').replace('oploverz', 'baubawang')
-    description = desc.text.replace('oploverz.asia', 'baubawang.com').replace(
-        'Oploverz', 'Baubawang').replace('oploverz', 'baubawang')
+    min_description = mindesc.text.replace('oploverz.asia', 'oniime.com').replace(
+        'Oploverz', 'Oniime').replace('oploverz', 'oniime')
+    description = desc.text.replace('oploverz.asia', 'oniime.com').replace(
+        'Oploverz', 'Oniime').replace('oploverz', 'oniime')
     if alter_span != None:
         alter = alter_span.text
     else:
