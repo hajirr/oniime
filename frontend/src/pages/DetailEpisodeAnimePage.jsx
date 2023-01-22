@@ -66,7 +66,7 @@ const DetailEpisodeAnimePage = () => {
         <div className="lg:mx-72 p-4 shadow-lg rounded-lg">
           <p className="font-bold my-4 text-center text-xl">{title}</p>
           <div className="aspect-video">
-            {showAds && (
+            {/* {showAds && (
               <div className="absolute mx-auto left-0 right-0 mt-10">
                 <img
                   src="https://3.bp.blogspot.com/-ZZSacDHLWlM/VhvlKTMjbLI/AAAAAAAAF2M/UDzU4rrvcaI/s1600/btn_close.gif"
@@ -82,13 +82,13 @@ const DetailEpisodeAnimePage = () => {
                   />
                 </div>
               </div>
-            )}
+            )} */}
             <iframe
               src={linkSteaming}
               title="streaming"
               allowFullScreen
               className="w-full aspect-video"
-              style={{ pointerEvents: showAds && "none" }}
+              // style={{ pointerEvents: showAds && "none" }}
             />
           </div>
           <div className="flex justify-around my-4">
