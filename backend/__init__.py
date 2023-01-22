@@ -90,6 +90,9 @@ def op_home():
 
         styleegg_articles = soup.find_all('article', class_='bs styleegg')
         stylesix_articles = soup.find_all('article', class_='stylesix')
+        series_gen = soup.find('div', class_='series-gen')
+        listupd = series_gen.find('div', class_='listupd')
+        series_gen_a = listupd.find_all('a')
 
         for item_styleegg in styleegg_articles:
             h2 = item_styleegg.find('h2')
